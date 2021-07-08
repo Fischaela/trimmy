@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53CD05D8269779D7000A92CC /* Trimmy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53CD05DD269779D8000A92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD05DC269779D8000A92CC /* Assets.xcassets */; };
+		53CD05E4269779D8000A92CC /* Trimmy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53CD05E9269779D8000A92CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05E8269779D8000A92CC /* ContentView.swift */; };
+		53CD05EB269779D8000A92CC /* TrimmyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05EA269779D8000A92CC /* TrimmyApp.swift */; };
+		53CD05ED269779D8000A92CC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05EC269779D8000A92CC /* ComplicationController.swift */; };
+		53CD05EF269779D8000A92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD05EE269779D8000A92CC /* Assets.xcassets */; };
+		53CD05F2269779D8000A92CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD05F1269779D8000A92CC /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CD05D9269779D7000A92CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CD05CD269779D7000A92CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD05D6269779D7000A92CC;
+			remoteInfo = "Trimmy WatchKit App";
+		};
+		53CD05E5269779D8000A92CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CD05CD269779D7000A92CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD05E2269779D8000A92CC;
+			remoteInfo = "Trimmy WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53CD05F9269779D8000A92CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53CD05E4269779D8000A92CC /* Trimmy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD05FD269779D8000A92CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53CD05D8269779D7000A92CC /* Trimmy WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53CD05D3269779D7000A92CC /* Trimmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trimmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trimmy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD05DC269779D8000A92CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CD05DE269779D8000A92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Trimmy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD05E8269779D8000A92CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53CD05EA269779D8000A92CC /* TrimmyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimmyApp.swift; sourceTree = "<group>"; };
+		53CD05EC269779D8000A92CC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		53CD05EE269779D8000A92CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CD05F1269779D8000A92CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53CD05F3269779D8000A92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CD05E0269779D8000A92CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53CD05CC269779D7000A92CC = {
+			isa = PBXGroup;
+			children = (
+				53CD05DB269779D7000A92CC /* Trimmy WatchKit App */,
+				53CD05E7269779D8000A92CC /* Trimmy WatchKit Extension */,
+				53CD05D4269779D7000A92CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53CD05D4269779D7000A92CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CD05D3269779D7000A92CC /* Trimmy.app */,
+				53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */,
+				53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CD05DB269779D7000A92CC /* Trimmy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				53CD05DC269779D8000A92CC /* Assets.xcassets */,
+				53CD05DE269779D8000A92CC /* Info.plist */,
+			);
+			path = "Trimmy WatchKit App";
+			sourceTree = "<group>";
+		};
+		53CD05E7269779D8000A92CC /* Trimmy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53CD05E8269779D8000A92CC /* ContentView.swift */,
+				53CD05EA269779D8000A92CC /* TrimmyApp.swift */,
+				53CD05EC269779D8000A92CC /* ComplicationController.swift */,
+				53CD05EE269779D8000A92CC /* Assets.xcassets */,
+				53CD05F3269779D8000A92CC /* Info.plist */,
+				53CD05F0269779D8000A92CC /* Preview Content */,
+			);
+			path = "Trimmy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		53CD05F0269779D8000A92CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53CD05F1269779D8000A92CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CD05D2269779D7000A92CC /* Trimmy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD05FE269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy" */;
+			buildPhases = (
+				53CD05D1269779D7000A92CC /* Resources */,
+				53CD05FD269779D8000A92CC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD05DA269779D7000A92CC /* PBXTargetDependency */,
+			);
+			name = Trimmy;
+			productName = Trimmy;
+			productReference = 53CD05D3269779D7000A92CC /* Trimmy.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		53CD05D6269779D7000A92CC /* Trimmy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD05FA269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy WatchKit App" */;
+			buildPhases = (
+				53CD05D5269779D7000A92CC /* Resources */,
+				53CD05F9269779D8000A92CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD05E6269779D8000A92CC /* PBXTargetDependency */,
+			);
+			name = "Trimmy WatchKit App";
+			productName = "Trimmy WatchKit App";
+			productReference = 53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		53CD05E2269779D8000A92CC /* Trimmy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD05F6269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy WatchKit Extension" */;
+			buildPhases = (
+				53CD05DF269779D8000A92CC /* Sources */,
+				53CD05E0269779D8000A92CC /* Frameworks */,
+				53CD05E1269779D8000A92CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trimmy WatchKit Extension";
+			productName = "Trimmy WatchKit Extension";
+			productReference = 53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CD05CD269779D7000A92CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					53CD05D2269779D7000A92CC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					53CD05D6269779D7000A92CC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					53CD05E2269779D8000A92CC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 53CD05D0269779D7000A92CC /* Build configuration list for PBXProject "Trimmy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CD05CC269779D7000A92CC;
+			productRefGroup = 53CD05D4269779D7000A92CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CD05D2269779D7000A92CC /* Trimmy */,
+				53CD05D6269779D7000A92CC /* Trimmy WatchKit App */,
+				53CD05E2269779D8000A92CC /* Trimmy WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CD05D1269779D7000A92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD05D5269779D7000A92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD05DD269779D8000A92CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD05E1269779D8000A92CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD05F2269779D8000A92CC /* Preview Assets.xcassets in Resources */,
+				53CD05EF269779D8000A92CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CD05DF269779D8000A92CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD05E9269779D8000A92CC /* ContentView.swift in Sources */,
+				53CD05EB269779D8000A92CC /* TrimmyApp.swift in Sources */,
+				53CD05ED269779D8000A92CC /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CD05DA269779D7000A92CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CD05D6269779D7000A92CC /* Trimmy WatchKit App */;
+			targetProxy = 53CD05D9269779D7000A92CC /* PBXContainerItemProxy */;
+		};
+		53CD05E6269779D8000A92CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CD05E2269779D8000A92CC /* Trimmy WatchKit Extension */;
+			targetProxy = 53CD05E5269779D8000A92CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53CD05F4269779D8000A92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CD05F5269779D8000A92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CD05F7269779D8000A92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trimmy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Trimmy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		53CD05F8269779D8000A92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trimmy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Trimmy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		53CD05FB269779D8000A92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				IBSC_MODULE = Trimmy_WatchKit_Extension;
+				INFOPLIST_FILE = "Trimmy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		53CD05FC269779D8000A92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				IBSC_MODULE = Trimmy_WatchKit_Extension;
+				INFOPLIST_FILE = "Trimmy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		53CD05FF269779D8000A92CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53CD0600269779D8000A92CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y94Y2JXNHC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geildanke.Trimmy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CD05D0269779D7000A92CC /* Build configuration list for PBXProject "Trimmy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD05F4269779D8000A92CC /* Debug */,
+				53CD05F5269779D8000A92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD05F6269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD05F7269779D8000A92CC /* Debug */,
+				53CD05F8269779D8000A92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD05FA269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD05FB269779D8000A92CC /* Debug */,
+				53CD05FC269779D8000A92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD05FE269779D8000A92CC /* Build configuration list for PBXNativeTarget "Trimmy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD05FF269779D8000A92CC /* Debug */,
+				53CD0600269779D8000A92CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CD05CD269779D7000A92CC /* Project object */;
+}
