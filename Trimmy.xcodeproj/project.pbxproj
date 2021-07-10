@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5354AB4326977CF200759D2E /* WavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354AB4226977CF200759D2E /* WavesView.swift */; };
+		5354AB4526977E0100759D2E /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354AB4426977E0100759D2E /* CourseView.swift */; };
+		5354AB4726977EAD00759D2E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354AB4626977EAD00759D2E /* ResultView.swift */; };
 		53CD05D8269779D7000A92CC /* Trimmy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		53CD05DD269779D8000A92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD05DC269779D8000A92CC /* Assets.xcassets */; };
 		53CD05E4269779D8000A92CC /* Trimmy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		53CD05E9269779D8000A92CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05E8269779D8000A92CC /* ContentView.swift */; };
+		53CD05E9269779D8000A92CC /* WindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05E8269779D8000A92CC /* WindView.swift */; };
 		53CD05EB269779D8000A92CC /* TrimmyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05EA269779D8000A92CC /* TrimmyApp.swift */; };
 		53CD05ED269779D8000A92CC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD05EC269779D8000A92CC /* ComplicationController.swift */; };
 		53CD05EF269779D8000A92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD05EE269779D8000A92CC /* Assets.xcassets */; };
@@ -60,12 +63,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5354AB4226977CF200759D2E /* WavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavesView.swift; sourceTree = "<group>"; };
+		5354AB4426977E0100759D2E /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		5354AB4626977EAD00759D2E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		53CD05D3269779D7000A92CC /* Trimmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trimmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CD05D7269779D7000A92CC /* Trimmy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trimmy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CD05DC269779D8000A92CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CD05DE269779D8000A92CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53CD05E3269779D8000A92CC /* Trimmy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Trimmy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53CD05E8269779D8000A92CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53CD05E8269779D8000A92CC /* WindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindView.swift; sourceTree = "<group>"; };
 		53CD05EA269779D8000A92CC /* TrimmyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimmyApp.swift; sourceTree = "<group>"; };
 		53CD05EC269779D8000A92CC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		53CD05EE269779D8000A92CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +121,10 @@
 		53CD05E7269779D8000A92CC /* Trimmy WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				53CD05E8269779D8000A92CC /* ContentView.swift */,
+				53CD05E8269779D8000A92CC /* WindView.swift */,
+				5354AB4426977E0100759D2E /* CourseView.swift */,
+				5354AB4226977CF200759D2E /* WavesView.swift */,
+				5354AB4626977EAD00759D2E /* ResultView.swift */,
 				53CD05EA269779D8000A92CC /* TrimmyApp.swift */,
 				53CD05EC269779D8000A92CC /* ComplicationController.swift */,
 				53CD05EE269779D8000A92CC /* Assets.xcassets */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53CD05E9269779D8000A92CC /* ContentView.swift in Sources */,
+				53CD05E9269779D8000A92CC /* WindView.swift in Sources */,
 				53CD05EB269779D8000A92CC /* TrimmyApp.swift in Sources */,
+				5354AB4526977E0100759D2E /* CourseView.swift in Sources */,
 				53CD05ED269779D8000A92CC /* ComplicationController.swift in Sources */,
+				5354AB4326977CF200759D2E /* WavesView.swift in Sources */,
+				5354AB4726977EAD00759D2E /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
