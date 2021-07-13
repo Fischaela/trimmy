@@ -10,10 +10,13 @@ import SwiftUI
 struct WindView: View {
     var body: some View {
         VStack {
-            NavigationLink(destination: WavesView()) {
+            NavigationLink(destination: WavesView(windId: 0)) {
                 Text("Wenig Wind")
             }
-            NavigationLink(destination: WavesView()) {
+            NavigationLink(destination: WavesView(windId: 1)) {
+                Text("Mittlerer Wind")
+            }
+            NavigationLink(destination: WavesView(windId: 2)) {
                 Text("Viel Wind")
             }
         }

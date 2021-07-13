@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct WavesView: View {
+    var windId: Int
     var body: some View {
         VStack {
-            NavigationLink(destination: CourseView()) {
+            NavigationLink(destination: CourseView(windId: windId, wavesId: 0)) {
                 Text("Wenig Welle")
             }
-            NavigationLink(destination: CourseView()) {
+            NavigationLink(destination: CourseView(windId: windId, wavesId: 1)) {
                 Text("Viel Welle")
             }
         }
@@ -22,6 +23,6 @@ struct WavesView: View {
 
 struct WavesView_Previews: PreviewProvider {
     static var previews: some View {
-        WavesView()
+        WavesView(windId: 0)
     }
 }

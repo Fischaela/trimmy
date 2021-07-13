@@ -8,6 +8,145 @@
 import SwiftUI
 
 struct ResultView: View {
+    var windId: Int
+    var wavesId: Int
+    var courseId: Int
+    
+    var data: [[[String]]] = [
+        [
+            [
+                "lose",
+                "etwas nach Luv",
+                "lose",
+                "geglättet",
+                "leicht durchgesetzt",
+                "lose",
+                "lose",
+                "rund mit Öffnung im Top",
+                "lose",
+                "leicht vorlichter",
+                "gerade eben glatt",
+                "rund mit Öffnung im Top"
+            ],
+            [
+                "lose",
+                "etwas nach Lee",
+                "lose",
+                "geglättet",
+                "geglättet",
+                "lose",
+                "lose",
+                "rundes Profil",
+                "lose",
+                "nach außen und etwas vorlichter",
+                "leicht gekräuselt",
+                "rundes Profil"
+            ],
+            [
+                "lose",
+                "Lee",
+                "lose",
+                "geglättet",
+                "lose",
+                "lose",
+                "lose",
+                "ganz bauchig",
+                "lose",
+                "nach außen und gut vorlicher",
+                "ganz lose",
+                "ganz bauchig"
+            ]
+        ],
+        [
+            [
+                "lose",
+                "etwas nach Luv",
+                "lose",
+                "geglättet",
+                "leicht durchgesetzt",
+                "lose",
+                "lose",
+                "rund mit Öffnung im Top",
+                "lose",
+                "leicht vorlichter",
+                "gerade eben glatt",
+                "rund mit Öffnung im Top"
+            ],
+            [
+                "lose",
+                "etwas nach Lee",
+                "lose",
+                "geglättet",
+                "geglättet",
+                "lose",
+                "lose",
+                "rundes Profil",
+                "lose",
+                "nach außen und etwas vorlichter",
+                "leicht gekräuselt",
+                "rundes Profil"
+            ],
+            [
+                "lose",
+                "Lee",
+                "lose",
+                "geglättet",
+                "lose",
+                "lose",
+                "lose",
+                "ganz bauchig",
+                "lose",
+                "nach außen und gut vorlicher",
+                "ganz lose",
+                "ganz bauchig"
+            ]
+        ],
+        [
+            [
+                "lose",
+                "etwas nach Luv",
+                "lose",
+                "geglättet",
+                "leicht durchgesetzt",
+                "lose",
+                "lose",
+                "rund mit Öffnung im Top",
+                "lose",
+                "leicht vorlichter",
+                "gerade eben glatt",
+                "rund mit Öffnung im Top"
+            ],
+            [
+                "lose",
+                "etwas nach Lee",
+                "lose",
+                "geglättet",
+                "geglättet",
+                "lose",
+                "lose",
+                "rundes Profil",
+                "lose",
+                "nach außen und etwas vorlichter",
+                "leicht gekräuselt",
+                "rundes Profil"
+            ],
+            [
+                "lose",
+                "Lee",
+                "lose",
+                "geglättet",
+                "lose",
+                "lose",
+                "lose",
+                "ganz bauchig",
+                "lose",
+                "nach außen und gut vorlicher",
+                "ganz lose",
+                "ganz bauchig"
+            ]
+        ]
+    ]
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -18,7 +157,7 @@ struct ResultView: View {
                     Text("Großschot")
                         .font(.body)
                         .bold()
-                    Text("dicht")
+                    Text(data[windId][wavesId][courseId][0])
                         .font(.body)
                         .fontWeight(.light)
                 }
@@ -94,6 +233,6 @@ struct ResultView: View {
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView()
+        ResultView(windId: 0, wavesId: 0, courseId: 0)
     }
 }
