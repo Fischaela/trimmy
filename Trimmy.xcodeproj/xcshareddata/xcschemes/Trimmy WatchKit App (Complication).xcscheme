@@ -55,8 +55,10 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "32">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/Trimmy WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53CD05D6269779D7000A92CC"
@@ -64,7 +66,7 @@
             BlueprintName = "Trimmy WatchKit App"
             ReferencedContainer = "container:Trimmy.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -73,8 +75,10 @@
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "32">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/Trimmy WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53CD05D6269779D7000A92CC"
@@ -82,7 +86,16 @@
             BlueprintName = "Trimmy WatchKit App"
             ReferencedContainer = "container:Trimmy.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "53CD05D6269779D7000A92CC"
+            BuildableName = "Trimmy WatchKit App.app"
+            BlueprintName = "Trimmy WatchKit App"
+            ReferencedContainer = "container:Trimmy.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

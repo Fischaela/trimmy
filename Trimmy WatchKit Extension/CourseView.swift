@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CourseView: View {
-    var windId: Int
-    var wavesId: Int
+    let windId: Int
+    let wavesId: Int
     var body: some View {
         NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 0)) {
             Text("Am Wind")

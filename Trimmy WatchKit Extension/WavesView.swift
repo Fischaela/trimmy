@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WavesView: View {
-    var windId: Int
+    let windId: Int
     var body: some View {
         VStack {
             NavigationLink(destination: CourseView(windId: windId, wavesId: 0)) {
