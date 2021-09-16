@@ -58,7 +58,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Trimmy WatchKit App">
+         RemotePath = "/Trimmy">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53CD05D6269779D7000A92CC"
@@ -78,7 +78,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Trimmy WatchKit App">
+         RemotePath = "/Trimmy">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53CD05D6269779D7000A92CC"

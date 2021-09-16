@@ -14,10 +14,10 @@ struct CourseView: View {
         NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 0)) {
             Text("Am Wind")
         }
-        NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 0)) {
+        NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 1)) {
             Text("Halb-Wind")
         }
-        NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 0)) {
+        NavigationLink(destination: ResultView(windId: windId, wavesId: wavesId, courseId: 2)) {
             Text("Vor-Wind")
         }
     }

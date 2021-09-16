@@ -149,7 +149,7 @@ struct ResultView: View {
                     "leicht gekräuselt",
                     "lose",
                     "mäßig fest",
-                    "liecht dicht",
+                    "leicht dicht",
                     "max. projezierte Fläche",
                     "lose",
                     "außen und vorlich",
@@ -210,7 +210,7 @@ struct ResultView: View {
                 // "Viel Wind, wenig Welle, Am Wind Kurs"
                 [
                     "max. dicht",
-                    "etwas nach Luv",
+                    "etwas nach Lee",
                     "lose",
                     "voll durchgesetzt",
                     "voll durchgesetzt",
